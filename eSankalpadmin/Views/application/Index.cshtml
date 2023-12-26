@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/pages/eSankalp.js"></script>
+
+<h2>Index</h2>
+<h2>Application Form</h2>
+
+<input type="hidden" id="hdnId" />
+
+Registration_Id
+<input type="text" id="txtid" class="form-control" />
+<br />
+<br />
+
+Name of Trainee
+<input type="text" id="txtname" class="form-control" />
+<br />
+<br />
+Qualification
+<select id="ddlQualification">
+    <option>Select</option>
+    <option>BE</option>
+    <option>ME</option>
+    <option>MCA</option>
+    <option>BCA</option>
+    <option>BSc</option>
+    <option>Poly</option>
+    <option>BCCA</option>
+</select>
+<br />
+<br />
+Mobile
+<input type="text" id="txtmobile" class="form-control" />
+<br />
+<br />
+Emailid
+<input type="text" id="txtemailid" class="form-control" />
+<br />
+<br />
+Date of Birth
+<input type="date" id="txtdob" class="form-control" />
+<br />
+<br />
+Address
+<input type="text" id="txtaddress" class="form-control" />
+<br />
+<br />
+State
+<input type="text" id="txtstate" class="form-control" />
+<br />
+<br />
+City
+<input type="text" id="txtcity" class="form-control" />
+<br />
+<br />
+Pincode
+<input type="text" id="txtpincode" class="form-control" />
+<br />
+<br />
+Select Training
+<select id="ddlselect_training">
+    <option>Select</option>
+    <option>HTML5|CSS|JS|Basic Sql</option>
+    <option>ASP.NET MVC5|C#|jQuery|AJAX|SQL SQL SERVER|EF|BOOTSTRAP|CSS|JS|WebHosting</option>
+    <option>ASP.NET Core 5.0|WebAPI|TypeScript|Angular</option>
+</select>
+<br />
+<br />
+Totalfees
+<input type="text" id="txttotalfees" class="form-control" />
+<br />
+<br />
+Discount
+<input type="text" id="txtdiscount" class="form-control" />
+<br />
+<br />
+Joining_Date
+<input type="date" id="txtjoin" class="form-control" />
+<br />
+<br />
+Advance Paid
+<input type="text" id="txtAdvance" class="form-control" />
+<br />
+<br />
+On Dated
+<input type="date" id="txtondate" class="form-control" />
+<br />
+<br />
+Remaining Amount
+<input type="text" id="txtremaining" class="form-control" />
+<br />
+<br />
+Created Date
+<input type="date" id="txtcreateddate" class="form-control" />
+<br />
+<br />
+Created By
+<input type="text" id="txtcreatedby" class="form-control" />
+<br />
+<br />
+Update Date
+<input type="date" id="txtupdate" class="form-control" />
+<br />
+<br />
+Updated By
+<input type="text" id="txtupdated" class="form-control" />
+<br />
+<br />
+Active
+<input type="checkbox" id="txtactive" class="col-md" placeholder="Resolved By" />
+<label for="floatingResolved By"></label>
+
+<br />
+<br />
+Image
+<input type="file" id="file1" placeholder="upload image" />
+<br />
+<br />
+<input type="button" value="submit" class="btn-primary btn-lg" onclick="savereg()" />
+<br>
+<br />
+@*<div class="mw-100" style="width: 200%;">
+        <table id="tblapplication" border="1" class="table-bordered container-fluid">
+            <thead>
+
+
+                <tr class="bg-danger text-success glyphicon-resize-full text-center">
+                    <th>Registration_Id</th>
+                    <th>Name of Trainee</th>
+                    <th>Qualification</th>
+                    <th>Mobile</th>
+                    <th>EmailId</th>
+                    <th>Date of Birth</th>
+                    <th>Address</th>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>Pincode</th>
+                    <th>Select Training</th>
+                    <th>Totalfees</th>
+                    <th>Discount</th>
+                    <th>Joining Date</th>
+                    <th>Advance Paid</th>
+                    <th>On Dated</th>
+                    <th>Remaining Amount</th>
+                    <th>Created Date</th>
+                    <th>Updated By</th>
+                    <th>Update Date</th>
+                    <th>Updated By</th>
+                    <th>Active</th>
+
+
+
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>*@
+
